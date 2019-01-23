@@ -18,8 +18,10 @@ fi
 dir="$COLOR-$WIDTH"
 mkdir "$dir"
 
+last_comic="$(gendl "http://unichat-comic.com/latest-comic")"
+
 i=1
-while test $i -lt 194
+while test "$i" -lt "$last_comic"
 do
 	echo "Page $i..."
 	sh unichat.sh $i $WIDTH $COLOR > "$dir/$i.txt"
