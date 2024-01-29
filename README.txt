@@ -68,5 +68,5 @@ gendl downloads the URL to stdout, unless you specify an output file with "-o".
 BORING STUFF
 ----------------------------------------
 License is CC-0
-Author is Jenga Phoenix <jadedctrl@teknik.io>
-Sauce is at https://git.eunichx.us/unichat
+Author is Jenga Phoenix <jadedctrl@posteo.at>
+Sauce is at https://hak.xwx.moe/jadedctrl/unichat
